@@ -11,7 +11,6 @@ Actualmente estoy trabajando en un proyecto en la empresa donde realizo mis prá
 
 ### 🌱 Intereses:
 - **Desarrollo Web**: Estoy en constante evolución en el desarrollo de aplicaciones web.
-- **Inteligencia Artificial**: Mi objetivo es aprender IA para ampliar mis conocimientos en el campo de la programación.
 
 ### 📫 Contáctame:
 - **Correo**: rcanadasperez@gmail.com
