@@ -1,0 +1,32 @@
+## Branching and TBD
+
+[Home](../README.md)
+
+Para iniciar un nuevo trabajo en el proyecto lo primero que debemos es identificar si es una nueva funcionalidad, una solución a un error o un defecto, y definimos el nombre de la rama:
+
+- feat/{nombre_de_la_nueva_funcion}
+- bug/{nombre_del_error_a_solucionar}
+- defect/{nombre_del_defecto_a_implementar}
+
+Una vez tengamos el nombre de la rama la crearemos en local y la pushearemos al servidor:
+
+    git checkout -u origin feat/pdf_reader
+
+Para publicar la rama en el servidor:
+    
+    git push -u origin feat/pdf_reader
+
+Una vez tenemos todos los cambios subidos y probados en la rama empezamos el proceso de mergeo con la rama main.
+
+    git checkout feat/searcher
+    git rebase main
+    git add <archivo_en_conflicto>
+    git rebase --continue
+
+Iniciamos el mergeo en main y lo publicamos en el repositorio
+
+    git checkout main  
+    git merge feat/searcher
+    git push origin main
+
+[Home](../README.md)
